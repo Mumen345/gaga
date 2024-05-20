@@ -91,7 +91,7 @@ h5 {
 }
 
 .img_div {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -147,7 +147,7 @@ h5 {
     }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1900px) {
     .lit_image {
         width: 8rem !important;
     }
