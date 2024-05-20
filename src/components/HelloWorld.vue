@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="div_right">
-      <NavigationBar />
+        <NavigationBar />
         <h1>Where Brands Meet Culture</h1>
         <button class="secondarybtn"> Get Started</button>
 
@@ -63,9 +63,11 @@ export default {
     text-align: center;
 
 }
-h5{
+
+h5 {
     font-size: 2rem;
 }
+
 .div_right {
     width: 50%;
     display: flex;
@@ -86,7 +88,7 @@ h5{
 .little_images {
     margin-left: -4.5rem;
     box-sizing: border-box;
-    }
+}
 
 .img_div {
     margin: 0 auto;
@@ -106,11 +108,12 @@ h5{
     color: #000000;
 }
 
-.right_nav p{
+.right_nav p {
     color: none;
     font-family: BrinnanRegular;
     font-size: small;
 }
+
 .right_nav {
     background: none;
     width: 100%;
@@ -120,28 +123,51 @@ h5{
     align-items: center;
     border-bottom: 1px solid #C2C2C2;
 
-
 }
 
 @media only screen and (max-width: 1366px) {
     .div_left {
-    font-size: 2.3rem;
+        font-size: 2.3rem;
     }
-.lit_image {
-    width: 12rem !important;
-}
-.little_images {
-    margin-top: 20px;
-    margin-left: -3.5rem;
-    box-sizing: border-box;
-    width: 12rem !important;
+
+    .lit_image {
+        width: 10rem !important;
+    }
+
+    .little_images {
+        margin-top: 20px;
+        margin-left: -3.5rem;
+        box-sizing: border-box;
+        width: 10rem !important;
     }
 
     .div_right h1 {
-    font-size: 4.5rem;
+        font-size: 4.5rem;
+
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .lit_image {
+        width: 8rem !important;
+    }
+    
+    .little_images {
+        margin-top: 20px;
+        margin-left: -3.5rem;
+        box-sizing: border-box;
+        width: 8rem !important;
+    }
+    .div_right h1 {
+    font-size: 2.9rem !important;
+    text-align: center;
 
 }
+.div_left {
+        font-size: 1.7rem;
+    }
 }
+
 @media only screen and (max-width: 1095px) {
     .hero_banner {
         display: flex;
@@ -149,31 +175,35 @@ h5{
         width: 100%;
         height: auto;
     }
+
     .div_right {
         width: 100%;
         display: flex;
         height: 70vh;
-        
+
     }
-    
+
     .div_left {
         width: 100%;
         display: flex;
         height: auto;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .div_right h1 {
-    font-size: 2.8rem;
+        font-size: 2.8rem;
 
-}
-.lit_image {
-    width: 8rem !important;
-}
-.little_images {
-    margin-left: -2.5rem;
-    box-sizing: border-box;
-    width: 8rem !important;
+    }
+
+    .lit_image {
+        width: 8rem !important;
+    }
+
+    .little_images {
+        margin-left: -2.5rem;
+        box-sizing: border-box;
+        width: 8rem !important;
     }
 }
 </style>
