@@ -5,7 +5,7 @@
             <h5>LOGO</h5>
         </div>
         <h1>CREATE. <br> CONNECT. <br> CONQUER.</h1>
-        <button class="secondarybtn"> Get Started</button>
+        <button @click="openCreative" class="secondarybtn"> Get Started</button>
         <div class="img_div">
             <img class="lit_image" src="../assets/images/first.png" alt="">
             <img class="little_images" src="../assets/images/second.png" alt="">
@@ -26,6 +26,12 @@ import NavigationBar from './NavigationBar.vue';
 export default {
     components: {
         NavigationBar
+    },
+    methods: {
+        openCreative() {
+            this.$router.push('/creative')
+        }
+
     }
 }
 </script>

@@ -50,10 +50,51 @@ span {
   font-size: 20px;
 
 }
+.a {
+  width: 200px;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF540B;
+  color: #ffffff;
+  height: 74px;
+  font-family: BrinnanRegular;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-size: 20px;
+
+}
 
 .secondarybtn:hover {
   background-color: #ffffff;
   color: #FF540B;
+}
+
+.primarybutton {
+  width: 200px;
+  padding: 15px;
+  border-radius: 50px;
+  border: 1px solid #2A2929;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000000;
+  color: #2A2929;
+  height: 7px;
+  font-family: BrinnanRegular;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-size: 20px;
+}
+
+.primarybutton:hover {
+  background-color: #2A2929;
+  color: #ffffff;
 }
 /* nav {
   padding: 30px;

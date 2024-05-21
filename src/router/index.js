@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PageNotFound from '../views/PageNotFound.vue'
+import CreativeView from '../views/CreativeView.vue'
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/creative',
+    name: 'creative',
+    component: CreativeView
   },
   {
     // path: "*",

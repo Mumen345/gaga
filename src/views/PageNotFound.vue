@@ -1,6 +1,5 @@
 <template>
     <div>
-        <NavigationBar />
 
         <div class="main">
             <div>
@@ -307,17 +306,15 @@
         </div>
         <div class="containers">
 
-            <button class="secondarybtn"> Go Home</button>
+            <a href="/" class="pro"> Go Home</a>
         </div>
 
     </div>
 </template>
 
 <script>
-import NavigationBar from '@/components/NavigationBar.vue';
 
 export default {
-    components: { NavigationBar },
 
 }
 </script>
